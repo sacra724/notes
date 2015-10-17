@@ -6,12 +6,19 @@ VirtualBox + CentOs6 での
 
 ## インストール
 
+```bash
+$ npm install -g phantomjs
+```
+
+もしくは
+
+
 [Build](http://phantomjs.org/build.html)
 
 ```bash
 # 事前に色々インストール (Remiを使ってるのでとりあえずRemiつけてインストール)
-$ yum install fontconfig freetype libfreetype.so.6 libfontconfig.so.1 libstdc++.so.6 --enablerepo=remi
-$ yum install gcc gcc-c++ make git openssl-devel freetype-devel fontconfig-devel --enablerepo=remi
+$ yum install -y fontconfig freetype libfreetype.so.6 libfontconfig.so.1 libstdc++.so.6 openssl-devel freetype-devel fontconfig-devel --enablerepo=remi
+$ yum install -y gcc gcc-c++ make git --enablerepo=remi
 
 # 適当な場所にPhantomJsをcloneする (ここでは /var/ にcloneしようと思う)
 $ mkdir /var/phantomjs
