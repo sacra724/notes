@@ -110,7 +110,3 @@ $ nginx -t
 $ systemctl start nginx.service
 $ nginx -s reload
 ```
-
-
-
-

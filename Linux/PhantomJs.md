@@ -7,6 +7,9 @@ VirtualBox + CentOs6 での
 ## インストール
 
 ```bash
+# 事前に色々インストール (Remiを使ってるのでとりあえずRemiつけてインストール)
+$ yum install -y fontconfig freetype libfreetype.so.6 libfontconfig.so.1 libstdc++.so.6 openssl-devel freetype-devel fontconfig-devel --enablerepo=remi
+$ yum install -y gcc gcc-c++ make git --enablerepo=remi
 $ npm install -g phantomjs
 ```
 

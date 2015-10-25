@@ -10,20 +10,7 @@ Ruby , Sass , Compass , modular-scale を使えと書いてあるので
 * Internet Explorer 8 – 10
 
 ## RVM (“Ruby Version Manager”) と Rubyのインストール
-RVM は複数の Ruby のインストールと管理を行うことができます。  
-このツールは OS X、Linux およびその他 UNIX-like なオペレーティングシステムに対応しています。  
-
-```bash
-# これで色々良い感じにしてくれる
-$ curl -sSL https://get.rvm.io | bash -s stable --ruby
-$ source /usr/local/rvm/scripts/rvm
-
-# バージョン確認
-$ ruby -v
-
-# to fix temporarily in this shell session run: 'rvm use ruby-2.1.2'.
-$ rvm use ruby-2.1.2
-```
+* [インストール詳細](Ruby.md)
 
 
 ### 参考サイト

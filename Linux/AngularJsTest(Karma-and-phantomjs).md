@@ -26,7 +26,7 @@ e2eテストは一旦オキで
 
 Node.js と npm が必要なのでインストールする  
 
-* [自分のインストールメモ](https://github.com/masa69/Notes/blob/master/Linux/NodeJS.md)
+* [自分のインストールメモ](https://github.com/masa69/Notes/blob/master/Linux/NodeJs.md)
 
 ### インストール
 
