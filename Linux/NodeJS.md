@@ -42,7 +42,7 @@ $ node -v
 # もしNodeが既にインストールされていたら削除する
 $ node -v
 
-# 方法1
+# 削除方法 その1
 $ curl -o uninstall-node.sh https://gist.githubusercontent.com/nicerobot/2697848/raw/uninstall-node.sh
 $ chmod u+x uninstall-node.sh
 $ ./uninstall-node.sh
@@ -53,13 +53,13 @@ $ rm -rf ~/.node-gyp
 $ rm -rf ~/.npm
 $ rm -rf ~/.sourcemint
 
-# 方法2
+# 削除方法 その2
 $ yum remove -y nodejs npm
 
-# 方法3
+# 削除方法 その3
 $ npm uninstall npm -g
 
-# 方法4
+# 削除方法 その4
 $ cd node/package/dir/
 $ make uninstall
 

@@ -10,6 +10,7 @@ $ source /usr/local/rvm/scripts/rvm
 
 # バージョン確認
 $ ruby -v
+$ gem -v
 
 # to fix temporarily in this shell session run: 'rvm use ruby-2.2.1'.
 # この時点の最新版を使ってみる

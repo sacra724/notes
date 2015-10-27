@@ -1,20 +1,24 @@
 # PhantomJs
 [PhantomJs](http://phantomjs.org/)
 
-VirtualBox + CentOs6 での  
-ユニットテストに使う予定  
 
 ## インストール
+
+### こっちのが簡単
 
 ```bash
 # 事前に色々インストール (Remiを使ってるのでとりあえずRemiつけてインストール)
 $ yum install -y fontconfig freetype libfreetype.so.6 libfontconfig.so.1 libstdc++.so.6 openssl-devel freetype-devel fontconfig-devel --enablerepo=remi
 $ yum install -y gcc gcc-c++ make git --enablerepo=remi
 $ npm install -g phantomjs
+
+$ phantomjs -v
 ```
 
 もしくは
 
+
+### 時間かかる上にめんどくさい
 
 [Build](http://phantomjs.org/build.html)
 
